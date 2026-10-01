@@ -40,7 +40,7 @@ flowchart LR
 
 ```bash
 make setup                 # install dependencies (requires uv)
-cp .env.example .env       # then add your ANTHROPIC_API_KEY
+cp .env.example .env       # add ANTHROPIC_API_KEY (a .env in any parent folder also works)
 make profile               # creates profile/resume.md + preferences.json (gitignored), then edit them
 make run                   # score the bundled sample jobs
 make run-live              # live remote jobs from Remotive
@@ -54,6 +54,6 @@ make test
 |---|---|---|
 | `sample` | 6 bundled demo postings | Offline demo and tests |
 | `remotive` | Live remote jobs via the [Remotive public API](https://remotive.com/api/remote-jobs) | No key; keep to a few runs per day and credit Remotive |
-| `kaggle` | [LinkedIn Job Postings](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings) (~120k) | Needs `~/.kaggle/kaggle.json` |
+| `kaggle` | [LinkedIn Job Postings](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings) (~120k) | Needs a one-time `uvx kaggle auth login` |
 
 **Stack:** Python · Claude API (structured outputs) · scikit-learn · Pydantic · pandas · Rich · pytest
