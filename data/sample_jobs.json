@@ -1,0 +1,20 @@
+[
+  {"id": "s1", "title": "Senior Product Analyst", "company": "Lumen Pay", "location": "Remote (USA)", "salary": "$150k–$175k",
+   "url": "https://example.com/jobs/s1", "posted": "2026-09-28", "source": "sample",
+   "description": "Own product analytics for our consumer payments app. Design A/B tests, build funnels and retention cohorts in SQL (Snowflake) and dbt, partner with PMs on roadmap decisions. 5+ years in analytics; fintech a plus."},
+  {"id": "s2", "title": "Analytics Engineer", "company": "Northwind Grocers", "location": "San Francisco, CA", "salary": "$160k–$190k",
+   "url": "https://example.com/jobs/s2", "posted": "2026-09-25", "source": "sample",
+   "description": "Build and maintain our dbt models on BigQuery, define the metrics layer, write data tests and enable self-serve analytics. Strong SQL and Python; experience with supply chain or inventory data preferred."},
+  {"id": "s3", "title": "AI Product Analyst", "company": "Quanta Labs", "location": "Remote", "salary": "$140k–$165k",
+   "url": "https://example.com/jobs/s3", "posted": "2026-09-30", "source": "sample",
+   "description": "Measure and improve LLM-powered product features: define evaluation metrics, run experiments, build dashboards on model quality and usage, prototype agent workflows with Python. SQL required."},
+  {"id": "s4", "title": "Junior Data Entry Clerk", "company": "Office Plus", "location": "Phoenix, AZ", "salary": "$38k",
+   "url": "https://example.com/jobs/s4", "posted": "2026-09-20", "source": "sample",
+   "description": "Enter invoices into our ERP system. Excel skills required. On-site only."},
+  {"id": "s5", "title": "Machine Learning Engineer, Ranking", "company": "Vista Social", "location": "New York, NY", "salary": "$210k–$260k",
+   "url": "https://example.com/jobs/s5", "posted": "2026-09-27", "source": "sample",
+   "description": "Train and deploy large-scale ranking models in PyTorch. 5+ years ML engineering, distributed training, C++ a plus. PhD preferred."},
+  {"id": "s6", "title": "Senior Data Analyst, Risk", "company": "Brightline Credit", "location": "Remote (USA)", "salary": "$145k–$170k",
+   "url": "https://example.com/jobs/s6", "posted": "2026-09-29", "source": "sample",
+   "description": "Analyze credit risk and fraud signals, build monitoring dashboards in Tableau, partner with risk and product teams, write production SQL. Experience with consumer lending or credit data required."}
+]

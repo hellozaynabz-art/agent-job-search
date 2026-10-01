@@ -1,0 +1,10 @@
+{
+  "target_titles": ["Senior Data Analyst", "Product Analyst", "Analytics Engineer", "AI Product Analyst"],
+  "seniority": "senior",
+  "locations": ["Remote", "San Francisco", "USA"],
+  "must_have": ["SQL"],
+  "nice_to_have": ["Python", "experimentation", "dbt", "LLM"],
+  "dealbreakers": ["unpaid", "commission only", "relocation required outside USA"],
+  "min_salary_usd": 130000,
+  "max_jobs_to_score": 15
+}
