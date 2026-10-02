@@ -5,6 +5,8 @@
 Finds open roles, screens each one against your resume like a recruiter would, and keeps an
 application tracker up to date, so you spend time applying instead of scrolling job boards.
 
+Example session (illustrative; figures are not from a recorded run):
+
 ```text
 $ make run-live
 42 jobs found · 31 meet must-haves · scoring 15
@@ -15,6 +17,9 @@ $ make run-live
  ...
 9 new jobs added to data/tracker.csv · shortlist saved to reports/shortlist_2026-10-01.md · $0.21
 ```
+
+> **Live mode needs an Anthropic API key** (`ANTHROPIC_API_KEY`). Everything else (tests, CI, and the similarity-only ranking via `make run-offline`) runs without one.
+> Real offline output: [`reports/sample_shortlist_offline.md`](reports/sample_shortlist_offline.md)
 
 ## How it works
 
